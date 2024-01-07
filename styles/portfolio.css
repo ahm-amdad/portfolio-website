@@ -50,10 +50,14 @@ nav li a {
   text-decoration: none;
   color: #474747;
 }
-/* heade related style  */
+
+
+/*============= heade related style ====================== */
+
+
 .header {
   background: #fff8f3;
-  background-image: url(../images/header_bg.png),url('../images/developer.png');
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right,left;
 }
@@ -85,13 +89,18 @@ nav li a {
 .banner-description {
   margin-bottom: 30px;
 }
-/* main section style */
+
+
+/*========= main section style=============== */
+
+
 main {
   max-width: 1140px;
   margin: 0px auto;
 }
 main section {
   margin-top: 100px;
+  background: #fff;
 }
 /* about section */
 .about {
@@ -117,7 +126,9 @@ main section {
   font-size: 18px;
 }
 
-/* skills style */
+
+/* what i do start section======================= */
+/* skills style ==============*/
 
 .skills-container {
   display: flex;
@@ -136,7 +147,9 @@ main section {
 #what-i-do-description {
   padding: 30px 150px;
 }
+
 /* resume section style */
+
 .resume-contaniner {
   display: flex;
   gap: 50px;
